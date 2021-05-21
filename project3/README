@@ -1,7 +1,4 @@
 Kiana Perst
-NetID: kmp357
-
-No Partner
 
 First I tested to see if my server worked by letting it run on an unused port. 
 I was able to connect with it via the Ilab machines, using netcat to send messages back and forth. 
