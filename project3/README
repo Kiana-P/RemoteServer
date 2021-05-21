@@ -1,1 +1,17 @@
-here
+Kiana Perst
+NetID: kmp357
+
+No Partner
+
+First I tested to see if my server worked by letting it run on an unused port. 
+I was able to connect with it via the Ilab machines, using netcat to send messages back and forth. 
+I also created a client program to test more complicated messages.
+
+To test the Communication Protocol, first I created a linked list data structure to store keys and their respective values in alphabetical order. 
+Next, I tested a variety of correct messages and malformed messages. 
+I tested unknown message codes and non-digit values for the length field to verify that my program would output a BAD error code. 
+I wrote too many or no \n characters in messages to make sure that my program would throw an error. 
+Also, I tested keys that were either longer or shorter than the length field to make sure that if the \n character was not exactly the last character, my program would throw a length error. 
+
+My program reads byte by byte, so even when responses are delayed, no error messages are accidentally thrown and output is not written too early. 
+Also, I used client programs to test that my multithreading worked and that the data structure is shared between all threads.
